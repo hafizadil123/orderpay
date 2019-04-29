@@ -1,0 +1,11 @@
+{
+  "code": "demo",
+  "parent": null,
+  "name": "OrderPay Demo Theme",
+  "description": "Demonstration theme for OrderPay front-end",
+  "author": "Cybill Dev Team, CEO Adil",
+  "version": "1.0.0",
+  "tags": {
+    "1.0.0": "Theme initialization"
+  }
+}

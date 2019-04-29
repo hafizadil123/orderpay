@@ -1,0 +1,2 @@
+<?= partial('@checkout_form'); ?>
+
