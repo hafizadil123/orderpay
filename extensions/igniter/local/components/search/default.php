@@ -1,14 +1,31 @@
 <div id="local-box" class="local-box-fluid">
     <div class="row">
+        <div class="col col-md-12" style="margin-left:40%;margin-top:16px;margin-bottom:16px;color:white;font-size: 1.75rem;">
+            <h2 style="color:white">About US</h2>        
+    </div>
+</div>
+    <div class="row">
         <div class="col-md-6">
             <img src="./extensions/igniter/local/assets/download.jpg" alt="" width="100%">
         </div>
         <div class="col-md-6 p-5">
-            <h2 class="text-white m-t-5">WELCOME TO ORDER PAY PRODUCTION</h2>
+            <h2 class="text-white m-t-5">WELCOME TO ORDER PAY</h2>
             <p class="text-white m-t-5" style="font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    color: #212529;">Do you want to have a fine dinner with your friends, in that favourite restaurant of the mere thought
+
+of waiting in that long queue gets you? Do you then intend to plan for a perfect dinner with all the
+
+uncertainties in the world?
+
+Then OrderPay is the right place for you. Your one source destination for all table booking
+
+OrderPAY is your one source destination for all restaurants and bar table booking. OrderPAY gives
+
+you the ultimate Uber experience from ordering your meals and drinks online to paying it before you
+
+attend your reservation; get straight to the point..</p>
         </div>
     </div>
 

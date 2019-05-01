@@ -19,9 +19,9 @@ $logoutLink = admin_url('logout');
                 <span><i class="fa fa-map-marker"></i>&nbsp;&nbsp;<?= $staffLocation; ?></span>
             <?php } ?>
         </div>
-        <a class="dropdown-item" href="<?= $staffEditLink; ?>">
+        <!-- <a class="dropdown-item" href="<?= $staffEditLink; ?>">
             <i class="fa fa-user fa-fw"></i>&nbsp;&nbsp;<?= lang('admin::lang.text_edit_details'); ?>
-        </a>
+        </a> -->
         <div role="separator" class="dropdown-divider"></div>
         <a class="dropdown-item text-danger" href="<?= $logoutLink; ?>">
             <i class="fa fa-power-off fa-fw"></i>&nbsp;&nbsp;<?= lang('admin::lang.text_logout'); ?>

@@ -239,4 +239,9 @@
   'Igniter\\Frontend\\Models\\Subscriber' => 'extensions\\igniter\\frontend\\models\\Subscriber.php',
   'Admin\\Controllers\\logout' => 'app\\admin\\controllers\\logout.php',
   'Admin\\DashboardWidgets\\Onboarding' => 'app\\admin\\dashboardwidgets\\Onboarding.php',
+  'Igniter\\Local\\Components\\Gallery' => 'extensions\\igniter\\local\\components\\Gallery.php',
+  'Admin\\Controllers\\ratings' => 'app\\admin\\controllers\\ratings.php',
+  'Admin\\Controllers\\staffgroups' => 'app\\admin\\controllers\\staffgroups.php',
+  'Admin\\FormWidgets\\PermissionEditor' => 'app\\admin\\formwidgets\\PermissionEditor.php',
+  'System\\DashboardWidgets\\News' => 'app\\system\\dashboardwidgets\\News.php',
 );

@@ -203,7 +203,7 @@ class Updates extends \Admin\Classes\AdminController
     {
         $carteKey = post('carte_key');
         if (!strlen($carteKey))
-            throw new ApplicationException('No carte key specified.');
+            throw new ApplicationException('');
 
         $response = UpdateManager::instance()->applySiteDetail($carteKey);
 

@@ -43,7 +43,7 @@ class Settings extends \Admin\Classes\AdminController
 
         // For security reasons, delete setup files if still exists.
         if (File::isFile(base_path('setup.php')) OR File::isDirectory(base_path('setup'))) {
-            flash()->danger(lang('system::lang.settings.alert_delete_setup_files'))->important()->now();
+           // flash()->danger(lang('system::lang.settings.alert_delete_setup_files'))->important()->now();
         }
 
         $pageTitle = lang('system::lang.settings.text_title');

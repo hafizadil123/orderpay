@@ -22,7 +22,7 @@
                             <input type="text"
                                    class="form-control"
                                    name="carte_key"
-                                   placeholder="Enter your carte key...">
+                                   >
                             <span class="input-group-btn">
                                 <a
                                     class="btn btn-outline-default btn-carte-help"

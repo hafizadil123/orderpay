@@ -6,13 +6,13 @@
         <span class="fa fa-user"></span>&nbsp;&nbsp;&nbsp;
         <?= lang('igniter.user::default.text_account'); ?>
     </a>
-    <a
+    <!-- <a
         href="<?= site_url($detailsPage); ?>"
         class="nav-item nav-link <?= ($this->page->getId() == 'account-details') ? 'active' : ''; ?>"
     >
         <span class="fa fa-edit"></span>&nbsp;&nbsp;&nbsp;
         <?= lang('igniter.user::default.text_edit_details'); ?>
-    </a>
+    </a> -->
     <a
         href="<?= site_url($addressPage); ?>"
         class="nav-item nav-link <?= ($this->page->getId() == 'account-address') ? 'active' : ''; ?>"

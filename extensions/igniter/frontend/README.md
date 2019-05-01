@@ -168,6 +168,3 @@ permalink: /
 <?= component('slider') ?>
 ...
 ```
-
-### License
-[The MIT License (MIT)](https://tastyigniter.com/licence/)

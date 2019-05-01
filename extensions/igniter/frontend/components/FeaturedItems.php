@@ -69,10 +69,11 @@ class FeaturedItems extends \System\Classes\BaseComponent
 
     protected function loadItems()
     {
-        return FeaturedItemsModel::getByIds([
-            'page' => '1',
-            'pageLimit' => $this->property('limit'),
-            'menuIds' => $this->property('items', []),
-        ]);
+        return FeaturedItemsModel::all()->take(9);
+//        return FeaturedItemsModel::getByIds([
+//            'page' => '1',
+//            'pageLimit' => $this->property('limit'),
+//            'menuIds' => $this->property('items', []),
+//        ]);
     }
 }

@@ -1,16 +1,112 @@
-[2019-04-29 19:00:31] development.ERROR: The requested page cannot be found: pages  
-[2019-04-29 19:04:36] development.ERROR: Igniter\Flame\Exception\SystemException: The partial 'flash.php' is not found. in C:\xampp\htdocs\demoOrderPay\app\system\traits\ViewMaker.php:161
+[2019-04-30 19:47:51] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:47:51] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:50:12] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:50:12] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:50:21] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:50:21] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:51:16] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:51:16] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:51:20] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:51:20] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:51:33] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:51:33] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:51:36] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:51:36] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:51:45] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:51:45] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:51:47] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:51:47] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:53:35] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:53:35] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:53:38] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:53:38] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:53:45] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:53:45] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:53:48] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:53:48] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:54:04] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:54:04] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:54:07] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:54:07] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:54:22] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:54:22] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 19:54:34] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:54:46] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-04-30 19:54:46] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-04-30 22:05:13] development.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Call to a member function update() on null in C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Flash\FlashBag.php:170
 Stack trace:
-#0 C:\xampp\htdocs\demoOrderPay\app\admin\actions\FormController.php(240): System\Classes\ControllerAction->makePartial('flash.php')
-#1 [internal function]: Admin\Actions\FormController->create_onSave('create')
+#0 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Flash\FlashBag.php(149): Igniter\Flame\Flash\FlashBag->updateLastMessage(Array)
+#1 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Flash\FlashBag.php(109): Igniter\Flame\Flash\FlashBag->message('', 'danger')
+#2 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Flash\FlashBag.php(121): Igniter\Flame\Flash\FlashBag->error('')
+#3 C:\xampp\htdocs\demoOrderPay\app\system\controllers\Settings.php(46): Igniter\Flame\Flash\FlashBag->danger('')
+#4 [internal function]: System\Controllers\Settings->index('index')
+#5 C:\xampp\htdocs\demoOrderPay\app\admin\classes\AdminController.php(214): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\demoOrderPay\app\admin\classes\AdminController.php(154): Admin\Classes\AdminController->execPageAction('index', Array)
+#7 C:\xampp\htdocs\demoOrderPay\app\system\classes\Controller.php(104): Admin\Classes\AdminController->remap('index', Array)
+#8 [internal function]: System\Classes\Controller->runAdmin('settings')
+#9 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(54): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('runAdmin', Array)
+#11 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Route.php(212): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(System\Classes\Controller), 'runAdmin')
+#12 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Route.php(169): Illuminate\Routing\Route->runController()
+#13 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(658): Illuminate\Routing\Route->run()
+#14 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Translation\Middleware\Localization.php(26): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#16 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Igniter\Flame\Translation\Middleware\Localization->handle(Object(Illuminate\Http\Request), Object(Closure))
+#17 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#18 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Middleware\SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#19 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#20 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#21 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\View\Middleware\ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#22 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Session\Middleware\StartSession.php(63): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#25 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#26 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#27 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#28 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#29 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#30 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\EncryptCookies.php(66): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#31 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#32 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#33 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#34 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(660): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#35 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(635): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#36 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(601): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#37 C:\xampp\htdocs\demoOrderPay\vendor\october\rain\src\Router\CoreRouter.php(20): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#38 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(176): October\Rain\Router\CoreRouter->dispatch(Object(Illuminate\Http\Request))
+#39 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#40 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Setting\Middleware\SaveSetting.php(25): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#41 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Igniter\Flame\Setting\Middleware\SaveSetting->handle(Object(Illuminate\Http\Request), Object(Closure))
+#42 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#43 C:\xampp\htdocs\demoOrderPay\vendor\fideloper\proxy\src\TrustProxies.php(56): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#44 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Fideloper\Proxy\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#45 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#46 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#47 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#48 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#49 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#50 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#51 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#52 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#53 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
+#54 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#55 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#56 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#57 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#58 C:\xampp\htdocs\demoOrderPay\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#59 {main}  
+[2019-04-30 22:21:10] development.ERROR: Igniter\Flame\Exception\SystemException: The partial 'flash.php' is not found. in C:\xampp\htdocs\demoOrderPay\app\system\traits\ViewMaker.php:161
+Stack trace:
+#0 C:\xampp\htdocs\demoOrderPay\app\admin\actions\FormController.php(287): System\Classes\ControllerAction->makePartial('flash.php')
+#1 [internal function]: Admin\Actions\FormController->edit_onSave('edit', '1')
 #2 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Traits\ExtendableTrait.php(384): call_user_func_array(Array, Array)
-#3 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Support\Extendable.php(42): Igniter\Flame\Support\Extendable->extendableCall('create_onSave', Array)
-#4 [internal function]: Igniter\Flame\Support\Extendable->__call('create_onSave', Array)
+#3 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Support\Extendable.php(42): Igniter\Flame\Support\Extendable->extendableCall('edit_onSave', Array)
+#4 [internal function]: Igniter\Flame\Support\Extendable->__call('edit_onSave', Array)
 #5 C:\xampp\htdocs\demoOrderPay\app\admin\classes\AdminController.php(306): call_user_func_array(Array, Array)
 #6 C:\xampp\htdocs\demoOrderPay\app\admin\classes\AdminController.php(189): Admin\Classes\AdminController->runHandler('onSave', Array)
 #7 C:\xampp\htdocs\demoOrderPay\app\admin\classes\AdminController.php(149): Admin\Classes\AdminController->processHandlers()
-#8 C:\xampp\htdocs\demoOrderPay\app\system\classes\Controller.php(118): Admin\Classes\AdminController->remap('create', Array)
-#9 [internal function]: System\Classes\Controller->runAdmin('igniter/pages/p...')
+#8 C:\xampp\htdocs\demoOrderPay\app\system\classes\Controller.php(104): Admin\Classes\AdminController->remap('edit', Array)
+#9 [internal function]: System\Classes\Controller->runAdmin('staffs/edit/1')
 #10 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(54): call_user_func_array(Array, Array)
 #11 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('runAdmin', Array)
 #12 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Route.php(212): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(System\Classes\Controller), 'runAdmin')
@@ -62,192 +158,283 @@ Stack trace:
 #58 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
 #59 C:\xampp\htdocs\demoOrderPay\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #60 {main}  
-[2019-04-29 19:20:45] development.ERROR: Igniter\Flame\Exception\SystemException: The partial 'flash.php' is not found. in C:\xampp\htdocs\demoOrderPay\app\system\traits\ViewMaker.php:161
+[2019-05-01 06:14:45] development.ERROR: PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\demoOrderPay\vendor\doctrine\dbal\lib\Doctrine\DBAL\Driver\PDOConnection.php:43
 Stack trace:
-#0 C:\xampp\htdocs\demoOrderPay\app\admin\actions\FormController.php(240): System\Classes\ControllerAction->makePartial('flash.php')
-#1 [internal function]: Admin\Actions\FormController->create_onSave('create')
-#2 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Traits\ExtendableTrait.php(384): call_user_func_array(Array, Array)
-#3 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Support\Extendable.php(42): Igniter\Flame\Support\Extendable->extendableCall('create_onSave', Array)
-#4 [internal function]: Igniter\Flame\Support\Extendable->__call('create_onSave', Array)
-#5 C:\xampp\htdocs\demoOrderPay\app\admin\classes\AdminController.php(306): call_user_func_array(Array, Array)
-#6 C:\xampp\htdocs\demoOrderPay\app\admin\classes\AdminController.php(189): Admin\Classes\AdminController->runHandler('onSave', Array)
-#7 C:\xampp\htdocs\demoOrderPay\app\admin\classes\AdminController.php(149): Admin\Classes\AdminController->processHandlers()
-#8 C:\xampp\htdocs\demoOrderPay\app\system\classes\Controller.php(118): Admin\Classes\AdminController->remap('create', Array)
-#9 [internal function]: System\Classes\Controller->runAdmin('igniter/pages/p...')
-#10 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(54): call_user_func_array(Array, Array)
-#11 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('runAdmin', Array)
-#12 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Route.php(212): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(System\Classes\Controller), 'runAdmin')
-#13 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Route.php(169): Illuminate\Routing\Route->runController()
-#14 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(658): Illuminate\Routing\Route->run()
-#15 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#16 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Translation\Middleware\Localization.php(26): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#17 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Igniter\Flame\Translation\Middleware\Localization->handle(Object(Illuminate\Http\Request), Object(Closure))
-#18 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#19 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Middleware\SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#20 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
-#21 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#22 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\View\Middleware\ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#23 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#24 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#25 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Session\Middleware\StartSession.php(63): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#26 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#27 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#28 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#29 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
-#30 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#31 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\EncryptCookies.php(66): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#32 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#33 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#34 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#35 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(660): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#36 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(635): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
-#37 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(601): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
-#38 C:\xampp\htdocs\demoOrderPay\vendor\october\rain\src\Router\CoreRouter.php(20): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
-#39 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(176): October\Rain\Router\CoreRouter->dispatch(Object(Illuminate\Http\Request))
-#40 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
-#41 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Setting\Middleware\SaveSetting.php(25): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#42 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Igniter\Flame\Setting\Middleware\SaveSetting->handle(Object(Illuminate\Http\Request), Object(Closure))
-#43 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#44 C:\xampp\htdocs\demoOrderPay\vendor\fideloper\proxy\src\TrustProxies.php(56): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#45 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Fideloper\Proxy\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#46 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#47 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#48 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
-#49 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#50 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#51 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
-#52 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#53 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#54 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
-#55 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#56 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#57 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#58 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
-#59 C:\xampp\htdocs\demoOrderPay\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#60 {main}  
-[2019-04-29 19:20:49] development.ERROR: Igniter\Flame\Exception\SystemException: The partial 'flash.php' is not found. in C:\xampp\htdocs\demoOrderPay\app\system\traits\ViewMaker.php:161
+#0 C:\xampp\htdocs\demoOrderPay\vendor\doctrine\dbal\lib\Doctrine\DBAL\Driver\PDOConnection.php(43): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(64): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=127....', 'root', '', Array)
+#2 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(43): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#3 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#4 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\ConnectionFactory.php(183): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#5 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#6 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(915): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(940): Illuminate\Database\Connection->getPdo()
+#8 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(399): Illuminate\Database\Connection->getReadPdo()
+#9 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(325): Illuminate\Database\Connection->getPdoForSelect(true)
+#10 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from i...', Array)
+#11 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(624): Illuminate\Database\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#12 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(333): Illuminate\Database\Connection->run('select * from i...', Array, Object(Closure))
+#13 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Schema\MySqlBuilder.php(18): Illuminate\Database\Connection->select('select * from i...', Array)
+#14 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Foundation\Application.php(279): Illuminate\Database\Schema\MySqlBuilder->hasTable('orderPay_settin...')
+#15 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Setting\SettingManager.php(15): Igniter\Flame\Foundation\Application->hasDatabase()
+#16 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Manager.php(57): Igniter\Flame\Setting\SettingManager->getDefaultDriver()
+#17 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Setting\SettingServiceProvider.php(35): Illuminate\Support\Manager->driver()
+#18 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(749): Igniter\Flame\Setting\SettingServiceProvider->Igniter\Flame\Setting\{closure}(Object(Igniter\Flame\Foundation\Application), Array)
+#19 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(631): Illuminate\Container\Container->build(Object(Closure))
+#20 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(586): Illuminate\Container\Container->resolve('system.setting', Array)
+#21 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(732): Illuminate\Container\Container->make('system.setting', Array)
+#22 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(1195): Illuminate\Foundation\Application->make('system.setting')
+#23 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(159): Illuminate\Container\Container->offsetGet('system.setting')
+#24 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(128): Illuminate\Support\Facades\Facade::resolveFacadeInstance('system.setting')
+#25 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(215): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#26 C:\xampp\htdocs\demoOrderPay\app\main\ServiceProvider.php(23): Illuminate\Support\Facades\Facade::__callStatic('get', Array)
+#27 [internal function]: Main\ServiceProvider->boot()
+#28 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(29): call_user_func_array(Array, Array)
+#29 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#30 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Igniter\Flame\Foundation\Application), Array, Object(Closure))
+#31 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(549): Illuminate\Container\BoundMethod::call(Object(Igniter\Flame\Foundation\Application), Array, Array, NULL)
+#32 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(792): Illuminate\Container\Container->call(Array)
+#33 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(775): Illuminate\Foundation\Application->bootProvider(Object(Main\ServiceProvider))
+#34 [internal function]: Illuminate\Foundation\Application->Illuminate\Foundation\{closure}(Object(Main\ServiceProvider), 26)
+#35 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(776): array_walk(Array, Object(Closure))
+#36 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\BootProviders.php(17): Illuminate\Foundation\Application->boot()
+#37 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(213): Illuminate\Foundation\Bootstrap\BootProviders->bootstrap(Object(Igniter\Flame\Foundation\Application))
+#38 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith(Array)
+#39 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#40 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#41 C:\xampp\htdocs\demoOrderPay\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#42 {main}
+
+Next Doctrine\DBAL\Driver\PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\demoOrderPay\vendor\doctrine\dbal\lib\Doctrine\DBAL\Driver\PDOConnection.php:47
 Stack trace:
-#0 C:\xampp\htdocs\demoOrderPay\app\admin\actions\FormController.php(240): System\Classes\ControllerAction->makePartial('flash.php')
-#1 [internal function]: Admin\Actions\FormController->create_onSave('create')
-#2 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Traits\ExtendableTrait.php(384): call_user_func_array(Array, Array)
-#3 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Support\Extendable.php(42): Igniter\Flame\Support\Extendable->extendableCall('create_onSave', Array)
-#4 [internal function]: Igniter\Flame\Support\Extendable->__call('create_onSave', Array)
-#5 C:\xampp\htdocs\demoOrderPay\app\admin\classes\AdminController.php(306): call_user_func_array(Array, Array)
-#6 C:\xampp\htdocs\demoOrderPay\app\admin\classes\AdminController.php(189): Admin\Classes\AdminController->runHandler('onSave', Array)
-#7 C:\xampp\htdocs\demoOrderPay\app\admin\classes\AdminController.php(149): Admin\Classes\AdminController->processHandlers()
-#8 C:\xampp\htdocs\demoOrderPay\app\system\classes\Controller.php(118): Admin\Classes\AdminController->remap('create', Array)
-#9 [internal function]: System\Classes\Controller->runAdmin('igniter/pages/p...')
-#10 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(54): call_user_func_array(Array, Array)
-#11 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('runAdmin', Array)
-#12 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Route.php(212): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(System\Classes\Controller), 'runAdmin')
-#13 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Route.php(169): Illuminate\Routing\Route->runController()
-#14 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(658): Illuminate\Routing\Route->run()
-#15 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#16 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Translation\Middleware\Localization.php(26): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#17 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Igniter\Flame\Translation\Middleware\Localization->handle(Object(Illuminate\Http\Request), Object(Closure))
-#18 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#19 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Middleware\SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#20 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
-#21 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#22 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\View\Middleware\ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#23 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#24 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#25 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Session\Middleware\StartSession.php(63): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#26 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#27 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#28 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#29 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
-#30 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#31 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\EncryptCookies.php(66): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#32 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#33 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#34 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#35 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(660): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#36 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(635): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
-#37 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(601): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
-#38 C:\xampp\htdocs\demoOrderPay\vendor\october\rain\src\Router\CoreRouter.php(20): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
-#39 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(176): October\Rain\Router\CoreRouter->dispatch(Object(Illuminate\Http\Request))
-#40 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
-#41 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Setting\Middleware\SaveSetting.php(25): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#42 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Igniter\Flame\Setting\Middleware\SaveSetting->handle(Object(Illuminate\Http\Request), Object(Closure))
-#43 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#44 C:\xampp\htdocs\demoOrderPay\vendor\fideloper\proxy\src\TrustProxies.php(56): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#45 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Fideloper\Proxy\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#46 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#47 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#48 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
-#49 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#50 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#51 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
-#52 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#53 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#54 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
-#55 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#56 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#57 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#58 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
-#59 C:\xampp\htdocs\demoOrderPay\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#60 {main}  
-[2019-04-29 19:21:10] development.ERROR: Igniter\Flame\Exception\SystemException: The partial 'flash.php' is not found. in C:\xampp\htdocs\demoOrderPay\app\system\traits\ViewMaker.php:161
+#0 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(64): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=127....', 'root', '', Array)
+#1 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(43): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\ConnectionFactory.php(183): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(915): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(940): Illuminate\Database\Connection->getPdo()
+#7 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(399): Illuminate\Database\Connection->getReadPdo()
+#8 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(325): Illuminate\Database\Connection->getPdoForSelect(true)
+#9 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from i...', Array)
+#10 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(624): Illuminate\Database\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#11 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(333): Illuminate\Database\Connection->run('select * from i...', Array, Object(Closure))
+#12 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Schema\MySqlBuilder.php(18): Illuminate\Database\Connection->select('select * from i...', Array)
+#13 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Foundation\Application.php(279): Illuminate\Database\Schema\MySqlBuilder->hasTable('orderPay_settin...')
+#14 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Setting\SettingManager.php(15): Igniter\Flame\Foundation\Application->hasDatabase()
+#15 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Manager.php(57): Igniter\Flame\Setting\SettingManager->getDefaultDriver()
+#16 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Setting\SettingServiceProvider.php(35): Illuminate\Support\Manager->driver()
+#17 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(749): Igniter\Flame\Setting\SettingServiceProvider->Igniter\Flame\Setting\{closure}(Object(Igniter\Flame\Foundation\Application), Array)
+#18 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(631): Illuminate\Container\Container->build(Object(Closure))
+#19 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(586): Illuminate\Container\Container->resolve('system.setting', Array)
+#20 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(732): Illuminate\Container\Container->make('system.setting', Array)
+#21 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(1195): Illuminate\Foundation\Application->make('system.setting')
+#22 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(159): Illuminate\Container\Container->offsetGet('system.setting')
+#23 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(128): Illuminate\Support\Facades\Facade::resolveFacadeInstance('system.setting')
+#24 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(215): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#25 C:\xampp\htdocs\demoOrderPay\app\main\ServiceProvider.php(23): Illuminate\Support\Facades\Facade::__callStatic('get', Array)
+#26 [internal function]: Main\ServiceProvider->boot()
+#27 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(29): call_user_func_array(Array, Array)
+#28 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#29 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Igniter\Flame\Foundation\Application), Array, Object(Closure))
+#30 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(549): Illuminate\Container\BoundMethod::call(Object(Igniter\Flame\Foundation\Application), Array, Array, NULL)
+#31 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(792): Illuminate\Container\Container->call(Array)
+#32 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(775): Illuminate\Foundation\Application->bootProvider(Object(Main\ServiceProvider))
+#33 [internal function]: Illuminate\Foundation\Application->Illuminate\Foundation\{closure}(Object(Main\ServiceProvider), 26)
+#34 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(776): array_walk(Array, Object(Closure))
+#35 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\BootProviders.php(17): Illuminate\Foundation\Application->boot()
+#36 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(213): Illuminate\Foundation\Bootstrap\BootProviders->bootstrap(Object(Igniter\Flame\Foundation\Application))
+#37 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith(Array)
+#38 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#39 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#40 C:\xampp\htdocs\demoOrderPay\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#41 {main}  
+[2019-05-01 06:14:53] development.ERROR: PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\demoOrderPay\vendor\doctrine\dbal\lib\Doctrine\DBAL\Driver\PDOConnection.php:43
 Stack trace:
-#0 C:\xampp\htdocs\demoOrderPay\app\admin\actions\FormController.php(240): System\Classes\ControllerAction->makePartial('flash.php')
-#1 [internal function]: Admin\Actions\FormController->create_onSave('create')
-#2 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Traits\ExtendableTrait.php(384): call_user_func_array(Array, Array)
-#3 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Support\Extendable.php(42): Igniter\Flame\Support\Extendable->extendableCall('create_onSave', Array)
-#4 [internal function]: Igniter\Flame\Support\Extendable->__call('create_onSave', Array)
-#5 C:\xampp\htdocs\demoOrderPay\app\admin\classes\AdminController.php(306): call_user_func_array(Array, Array)
-#6 C:\xampp\htdocs\demoOrderPay\app\admin\classes\AdminController.php(189): Admin\Classes\AdminController->runHandler('onSave', Array)
-#7 C:\xampp\htdocs\demoOrderPay\app\admin\classes\AdminController.php(149): Admin\Classes\AdminController->processHandlers()
-#8 C:\xampp\htdocs\demoOrderPay\app\system\classes\Controller.php(118): Admin\Classes\AdminController->remap('create', Array)
-#9 [internal function]: System\Classes\Controller->runAdmin('igniter/pages/p...')
-#10 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(54): call_user_func_array(Array, Array)
-#11 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('runAdmin', Array)
-#12 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Route.php(212): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(System\Classes\Controller), 'runAdmin')
-#13 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Route.php(169): Illuminate\Routing\Route->runController()
-#14 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(658): Illuminate\Routing\Route->run()
-#15 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#16 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Translation\Middleware\Localization.php(26): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#17 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Igniter\Flame\Translation\Middleware\Localization->handle(Object(Illuminate\Http\Request), Object(Closure))
-#18 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#19 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Middleware\SubstituteBindings.php(41): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#20 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
-#21 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#22 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\View\Middleware\ShareErrorsFromSession.php(49): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#23 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#24 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#25 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Session\Middleware\StartSession.php(63): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#26 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#27 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#28 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse.php(37): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#29 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
-#30 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#31 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Cookie\Middleware\EncryptCookies.php(66): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#32 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#33 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#34 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#35 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(660): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#36 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(635): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
-#37 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Router.php(601): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
-#38 C:\xampp\htdocs\demoOrderPay\vendor\october\rain\src\Router\CoreRouter.php(20): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
-#39 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(176): October\Rain\Router\CoreRouter->dispatch(Object(Illuminate\Http\Request))
-#40 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(30): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
-#41 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Setting\Middleware\SaveSetting.php(25): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#42 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Igniter\Flame\Setting\Middleware\SaveSetting->handle(Object(Illuminate\Http\Request), Object(Closure))
-#43 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#44 C:\xampp\htdocs\demoOrderPay\vendor\fideloper\proxy\src\TrustProxies.php(56): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#45 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Fideloper\Proxy\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#46 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#47 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(30): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#48 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
-#49 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#50 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ValidatePostSize.php(27): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#51 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
-#52 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#53 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode.php(46): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#54 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(149): Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle(Object(Illuminate\Http\Request), Object(Closure))
-#55 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#56 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(102): Illuminate\Routing\Pipeline->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#57 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(151): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#58 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
-#59 C:\xampp\htdocs\demoOrderPay\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#60 {main}  
+#0 C:\xampp\htdocs\demoOrderPay\vendor\doctrine\dbal\lib\Doctrine\DBAL\Driver\PDOConnection.php(43): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(64): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=127....', 'root', '', Array)
+#2 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(43): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#3 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#4 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\ConnectionFactory.php(183): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#5 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#6 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(915): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(940): Illuminate\Database\Connection->getPdo()
+#8 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(399): Illuminate\Database\Connection->getReadPdo()
+#9 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(325): Illuminate\Database\Connection->getPdoForSelect(true)
+#10 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from i...', Array)
+#11 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(624): Illuminate\Database\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#12 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(333): Illuminate\Database\Connection->run('select * from i...', Array, Object(Closure))
+#13 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Schema\MySqlBuilder.php(18): Illuminate\Database\Connection->select('select * from i...', Array)
+#14 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Foundation\Application.php(279): Illuminate\Database\Schema\MySqlBuilder->hasTable('orderPay_settin...')
+#15 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Setting\SettingManager.php(15): Igniter\Flame\Foundation\Application->hasDatabase()
+#16 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Manager.php(57): Igniter\Flame\Setting\SettingManager->getDefaultDriver()
+#17 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Setting\SettingServiceProvider.php(35): Illuminate\Support\Manager->driver()
+#18 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(749): Igniter\Flame\Setting\SettingServiceProvider->Igniter\Flame\Setting\{closure}(Object(Igniter\Flame\Foundation\Application), Array)
+#19 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(631): Illuminate\Container\Container->build(Object(Closure))
+#20 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(586): Illuminate\Container\Container->resolve('system.setting', Array)
+#21 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(732): Illuminate\Container\Container->make('system.setting', Array)
+#22 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(1195): Illuminate\Foundation\Application->make('system.setting')
+#23 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(159): Illuminate\Container\Container->offsetGet('system.setting')
+#24 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(128): Illuminate\Support\Facades\Facade::resolveFacadeInstance('system.setting')
+#25 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(215): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#26 C:\xampp\htdocs\demoOrderPay\app\main\ServiceProvider.php(23): Illuminate\Support\Facades\Facade::__callStatic('get', Array)
+#27 [internal function]: Main\ServiceProvider->boot()
+#28 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(29): call_user_func_array(Array, Array)
+#29 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#30 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Igniter\Flame\Foundation\Application), Array, Object(Closure))
+#31 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(549): Illuminate\Container\BoundMethod::call(Object(Igniter\Flame\Foundation\Application), Array, Array, NULL)
+#32 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(792): Illuminate\Container\Container->call(Array)
+#33 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(775): Illuminate\Foundation\Application->bootProvider(Object(Main\ServiceProvider))
+#34 [internal function]: Illuminate\Foundation\Application->Illuminate\Foundation\{closure}(Object(Main\ServiceProvider), 26)
+#35 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(776): array_walk(Array, Object(Closure))
+#36 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\BootProviders.php(17): Illuminate\Foundation\Application->boot()
+#37 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(213): Illuminate\Foundation\Bootstrap\BootProviders->bootstrap(Object(Igniter\Flame\Foundation\Application))
+#38 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith(Array)
+#39 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#40 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#41 C:\xampp\htdocs\demoOrderPay\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#42 {main}
+
+Next Doctrine\DBAL\Driver\PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\demoOrderPay\vendor\doctrine\dbal\lib\Doctrine\DBAL\Driver\PDOConnection.php:47
+Stack trace:
+#0 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(64): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=127....', 'root', '', Array)
+#1 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(43): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connectors\ConnectionFactory.php(183): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Database\Connectors\ConnectionFactory->Illuminate\Database\Connectors\{closure}()
+#5 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(915): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(940): Illuminate\Database\Connection->getPdo()
+#7 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(399): Illuminate\Database\Connection->getReadPdo()
+#8 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(325): Illuminate\Database\Connection->getPdoForSelect(true)
+#9 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(657): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from i...', Array)
+#10 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(624): Illuminate\Database\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#11 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Connection.php(333): Illuminate\Database\Connection->run('select * from i...', Array, Object(Closure))
+#12 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Database\Schema\MySqlBuilder.php(18): Illuminate\Database\Connection->select('select * from i...', Array)
+#13 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Foundation\Application.php(279): Illuminate\Database\Schema\MySqlBuilder->hasTable('orderPay_settin...')
+#14 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Setting\SettingManager.php(15): Igniter\Flame\Foundation\Application->hasDatabase()
+#15 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Manager.php(57): Igniter\Flame\Setting\SettingManager->getDefaultDriver()
+#16 C:\xampp\htdocs\demoOrderPay\vendor\tastyigniter\flame\src\Setting\SettingServiceProvider.php(35): Illuminate\Support\Manager->driver()
+#17 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(749): Igniter\Flame\Setting\SettingServiceProvider->Igniter\Flame\Setting\{closure}(Object(Igniter\Flame\Foundation\Application), Array)
+#18 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(631): Illuminate\Container\Container->build(Object(Closure))
+#19 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(586): Illuminate\Container\Container->resolve('system.setting', Array)
+#20 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(732): Illuminate\Container\Container->make('system.setting', Array)
+#21 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(1195): Illuminate\Foundation\Application->make('system.setting')
+#22 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(159): Illuminate\Container\Container->offsetGet('system.setting')
+#23 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(128): Illuminate\Support\Facades\Facade::resolveFacadeInstance('system.setting')
+#24 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(215): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#25 C:\xampp\htdocs\demoOrderPay\app\main\ServiceProvider.php(23): Illuminate\Support\Facades\Facade::__callStatic('get', Array)
+#26 [internal function]: Main\ServiceProvider->boot()
+#27 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(29): call_user_func_array(Array, Array)
+#28 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#29 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Igniter\Flame\Foundation\Application), Array, Object(Closure))
+#30 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Container\Container.php(549): Illuminate\Container\BoundMethod::call(Object(Igniter\Flame\Foundation\Application), Array, Array, NULL)
+#31 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(792): Illuminate\Container\Container->call(Array)
+#32 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(775): Illuminate\Foundation\Application->bootProvider(Object(Main\ServiceProvider))
+#33 [internal function]: Illuminate\Foundation\Application->Illuminate\Foundation\{closure}(Object(Main\ServiceProvider), 26)
+#34 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(776): array_walk(Array, Object(Closure))
+#35 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\BootProviders.php(17): Illuminate\Foundation\Application->boot()
+#36 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(213): Illuminate\Foundation\Bootstrap\BootProviders->bootstrap(Object(Igniter\Flame\Foundation\Application))
+#37 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith(Array)
+#38 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#39 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#40 C:\xampp\htdocs\demoOrderPay\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#41 {main}  
+[2019-05-01 07:55:31] development.ERROR: The requested page cannot be found: assets/media/uploads/pablo-merchan-montes-73076-unsplash.png  
+[2019-05-01 07:55:34] development.ERROR: The requested page cannot be found: assets/media/uploads/pablo-merchan-montes-73076-unsplash.png  
+[2019-05-01 07:56:28] development.ERROR: The requested page cannot be found: assets/media/uploads/pablo-merchan-montes-73076-unsplash.png  
+[2019-05-01 07:56:31] development.ERROR: The requested page cannot be found: assets/media/uploads/pablo-merchan-montes-73076-unsplash.png  
+[2019-05-01 07:56:42] development.ERROR: The requested page cannot be found: assets/media/uploads/adf.jpg  
+[2019-05-01 07:58:34] development.ERROR: The requested page cannot be found: assets/media/uploads/pablo-merchan-montes-73076-unsplash.png  
+[2019-05-01 07:58:36] development.ERROR: The requested page cannot be found: assets/media/uploads/pablo-merchan-montes-73076-unsplash.png  
+[2019-05-01 07:59:17] development.ERROR: The requested page cannot be found: assets/media/uploads/pablo-merchan-montes-73076-unsplash.png  
+[2019-05-01 08:00:00] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 08:00:00] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 08:00:09] development.ERROR: The requested page cannot be found: assets/media/uploads/adf.jpg  
+[2019-05-01 08:00:34] development.ERROR: The requested page cannot be found: assets/media/uploads/adf.jpg  
+[2019-05-01 08:02:08] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 08:02:08] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 08:02:10] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 08:02:10] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 08:02:21] development.ERROR: The requested page cannot be found: assets/media/uploads/adf.jpg  
+[2019-05-01 08:02:27] development.ERROR: The requested page cannot be found: assets/media/uploads/adf.jpg  
+[2019-05-01 08:03:14] development.ERROR: The requested page cannot be found: assets/media/uploads/images/pablo-merchan-montes-73076-unsplash.png  
+[2019-05-01 08:03:22] development.ERROR: The requested page cannot be found: assets/media/uploads/images/pablo-merchan-montes-73076-unsplash.png  
+[2019-05-01 08:04:26] development.ERROR: The requested page cannot be found: assets/media/uploads/images  
+[2019-05-01 09:29:35] development.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "session:clea" is not defined.
+
+Did you mean one of these?
+    activitylog:cleanup
+    auth:clear-resets
+    cache:clear
+    config:clear
+    currency:cleanup
+    route:clear
+    session:table
+    view:clear in C:\xampp\htdocs\demoOrderPay\vendor\symfony\console\Application.php:618
+Stack trace:
+#0 C:\xampp\htdocs\demoOrderPay\vendor\symfony\console\Application.php(229): Symfony\Component\Console\Application->find('session:clea')
+#1 C:\xampp\htdocs\demoOrderPay\vendor\symfony\console\Application.php(148): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Console\Application.php(88): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\demoOrderPay\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(121): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\xampp\htdocs\demoOrderPay\artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2019-05-01 09:40:30] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:40:31] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:40:51] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:40:51] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:40:58] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:40:58] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:41:21] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:41:21] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:42:42] development.ERROR: The requested page cannot be found: account/details  
+[2019-05-01 09:46:39] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:46:39] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:46:42] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:46:42] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:47:20] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:47:20] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:47:35] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:47:35] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:47:44] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:47:44] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:47:51] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:47:51] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:47:57] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:47:57] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:48:06] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:48:06] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:48:27] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:48:27] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:48:31] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:48:31] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:48:37] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:48:37] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:48:52] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:48:52] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:49:00] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:49:00] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:49:14] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:49:14] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:49:22] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:49:22] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:49:29] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:49:29] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:49:31] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:49:31] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:49:34] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:49:34] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:49:55] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:49:55] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:50:12] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:50:12] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:50:14] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:50:14] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:50:18] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:50:18] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+[2019-05-01 09:50:25] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  
+
+[2019-05-01 09:50:27] development.ERROR: The requested page cannot be found: app/system/assets/ui/bootstrap.min.js.map  
+[2019-05-01 09:50:27] development.ERROR: The requested page cannot be found: app/admin/assets/js/metisMenu.min.js.map  

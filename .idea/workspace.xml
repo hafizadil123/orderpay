@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb05f887-9ae4-4b1f-975d-4f781cf0b83a" name="Default Changelist" comment="" />
+    <list default="true" id="eb05f887-9ae4-4b1f-975d-4f781cf0b83a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/system/controllers/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/system/controllers/Settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/system/controllers/Updates.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/system/controllers/Updates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/system/views/updates/carte.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/system/views/updates/carte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/igniter/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/igniter/frontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/igniter/frontend/components/FeaturedItems.php" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/igniter/frontend/components/FeaturedItems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/classes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/system.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/system.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/tastyigniter-orange/assets/css/app1.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/tastyigniter-orange/assets/css/app1.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,34 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extensions/igniter/cart/components/Checkout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5185">
-              <caret line="318" selection-start-line="318" selection-end-line="318" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/main/template/Model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2975">
-              <caret line="178" column="28" selection-start-line="178" selection-start-column="28" selection-end-line="178" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/views/themes/tastyigniter-orange/reservation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Reservation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/controllers/Reservation.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1326">
@@ -49,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="success.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extensions/igniter/reservation/components/booking/success.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -58,7 +43,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/tastyigniter-orange/assets/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="e#73526#73726#2" expanded="true" />
+                <element signature="e#73932#74081#2" expanded="true" />
+                <element signature="e#74578#74724#2" expanded="true" />
+                <element signature="e#75026#75192#1" expanded="true" />
+                <element signature="e#89393#89636#2" expanded="true" />
+                <element signature="e#91223#91472#2" expanded="true" />
+                <element signature="e#130239#130429#2" expanded="true" />
+                <element signature="e#130475#130665#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Extension.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extensions/igniter/frontend/Extension.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeaturedItems.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/extensions/igniter/frontend/components/FeaturedItems.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="success.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extensions/igniter/cart/components/checkout/success.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -67,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="OrderManager.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extensions/igniter/cart/classes/OrderManager.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3417">
@@ -76,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Currency.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/tastyigniter/flame/src/Currency/Currency.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4199">
@@ -85,7 +107,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extensions/igniter/reservation/components/reservations/list.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -94,7 +116,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="standard_3.php" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_3.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="12019">
@@ -107,7 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>OrderPay</find>
       <find>TastyIgniter</find>
       <find>account/login</find>
       <find>account/register</find>
@@ -128,7 +149,6 @@
       <find>checkDeliveryCoverage</find>
       <find>number_format</find>
       <find>number_format(</find>
-      <find>confirm</find>
       <find>number</find>
       <find>$reservation-&gt;location-&gt;location_name</find>
       <find>value</find>
@@ -137,6 +157,8 @@
       <find>button_reservation</find>
       <find>successPage</find>
       <find>sprintf(lang('igniter.reservation::default.text_success_message')</find>
+      <find>main</find>
+      <find>Featured Menu</find>
     </findStrings>
     <replaceStrings>
       <replace>OrderPay</replace>
@@ -148,6 +170,9 @@
       <replace>account</replace>
       <replace>checkout</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -194,8 +219,21 @@
         <option value="$PROJECT_DIR$/extensions/igniter/cart/components/Checkout.php" />
         <option value="$PROJECT_DIR$/main/controllers/Reservation.php" />
         <option value="$PROJECT_DIR$/extensions/igniter/reservation/components/booking/success.php" />
+        <option value="$PROJECT_DIR$/themes/tastyigniter-orange/assets/css/app.css" />
+        <option value="$PROJECT_DIR$/extensions/igniter/frontend/components/FeaturedItems.php" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/themes/tastyigniter-orange/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -296,10 +334,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="483" />
-    <option name="y" value="36" />
-    <option name="width" value="901" />
-    <option name="height" value="688" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -310,80 +348,26 @@
         <subPane>
           <expand>
             <path>
-              <item name="order-pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-pay" type="462c0819:PsiDirectoryNode" />
+              <item name="demoOrderPay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoOrderPay" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="order-pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-pay" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="demoOrderPay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoOrderPay" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="order-pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-pay" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="igniter" type="462c0819:PsiDirectoryNode" />
+              <item name="demoOrderPay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoOrderPay" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="order-pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-pay" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="igniter" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-pay" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="igniter" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-pay" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="igniter" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="checkout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-pay" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="igniter" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-pay" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="igniter" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-pay" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-pay" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-pay" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-pay" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="tastyigniter-orange" type="462c0819:PsiDirectoryNode" />
+              <item name="demoOrderPay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoOrderPay" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -393,8 +377,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="featur&#9;null&#9;null&#10;app.css&#9;FILE&#9;file://C:/xampp/htdocs/demoOrderPay/themes/tastyigniter-orange/assets/css/app.css" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../order-pay" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -428,40 +413,80 @@
       <updated>1549699858367</updated>
       <workItem from="1549699860580" duration="25572000" />
       <workItem from="1549781777305" duration="601000" />
+      <workItem from="1556694459245" duration="1506000" />
+      <workItem from="1556696225019" duration="1636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26173000" />
+    <option name="totallyTimeSpent" value="29315000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.95090014" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/extensions/igniter/cart/classes/OrderManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3417">
+          <caret line="212" column="32" selection-start-line="212" selection-start-column="32" selection-end-line="212" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/tastyigniter/flame/src/Currency/Currency.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4199">
+          <caret line="248" column="7" selection-start-line="248" selection-start-column="7" selection-end-line="248" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extensions/igniter/reservation/components/reservations/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12019">
+          <caret line="707" column="93" selection-start-line="707" selection-start-column="93" selection-end-line="707" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extensions/igniter/reservation/components/booking/success.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/classes/MenuItem.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3978">
@@ -476,15 +501,6 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/views/locations/preview.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/views/locations/flexible_hours.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/views/locations/edit.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/views/locations/create.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -506,9 +522,6 @@
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/assets/images/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/views/payments/create.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -573,9 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extensions/igniter/frontend/components/Banners.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/extensions/igniter/frontend/components/Newsletter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -603,9 +613,6 @@
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -652,18 +659,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/system/database/records/menus.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/system/database/records/countries.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/system/database/records/currencies.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/extensions/igniter/payregister/vendor/moneyphp/money/resources/currency.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -784,6 +785,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/tastyigniter-orange/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#73526#73726#2" expanded="true" />
+            <element signature="e#73932#74081#2" expanded="true" />
+            <element signature="e#74578#74724#2" expanded="true" />
+            <element signature="e#75026#75192#1" expanded="true" />
+            <element signature="e#89393#89636#2" expanded="true" />
+            <element signature="e#91223#91472#2" expanded="true" />
+            <element signature="e#130239#130429#2" expanded="true" />
+            <element signature="e#130475#130665#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extensions/igniter/frontend/Extension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extensions/igniter/frontend/components/FeaturedItems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
