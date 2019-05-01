@@ -1,7 +1,7 @@
 <div id="local-box" class="local-box-fluid">
     <div class="row">
         <div class="col col-md-12" style="margin-left:40%;margin-top:16px;margin-bottom:16px;color:white;font-size: 1.75rem;">
-            <h2 style="color:white">About US</h2>        
+            <h2 style="color:white">ABOUT US</h2>        
     </div>
 </div>
     <div class="row">
