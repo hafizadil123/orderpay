@@ -1,12 +1,12 @@
 <div id="local-box" class="local-box-fluid">
     <div class="row">
-        <div class="col col-md-12" style="margin-left:40%;margin-top:16px;margin-bottom:16px;color:white;font-size: 1.75rem;">
+        <div class="col col-md-12" style="margin-left:43%;margin-top:16px;margin-bottom:16px;color:white;font-size: 1.75rem;">
             <h2 style="color:white">ABOUT US</h2>        
     </div>
 </div>
     <div class="row">
         <div class="col-md-6">
-            <img src="./extensions/igniter/local/assets/download.jpg" alt="" width="100%">
+            <img src="./extensions/igniter/local/assets/about_us.jpeg" alt="" width="100%">
         </div>
         <div class="col-md-6 p-5">
             <h2 class="text-white m-t-5">WELCOME TO ORDER PAY</h2>
