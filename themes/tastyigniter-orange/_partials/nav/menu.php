@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-top navbar-expand-md fixed-top">
     <div class="container">
         <?= partial('nav/logo'); ?>
@@ -9,9 +10,8 @@
             aria-controls="navbarMainHeader"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            style="background-color:#d04710"
         >
-        <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars"></i>
         </button>
 
         <div class="justify-content-end collapse navbar-collapse" id="navbarMainHeader">
