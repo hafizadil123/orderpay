@@ -22,7 +22,7 @@
 						<fieldset>
 							<div class="form-group">
 								<div class="input-group">
-									<input type="text" name="email" id="login-email" class="form-control input-lg" placeholder="<?php echo lang('label_email'); ?>" autofocus="" />
+									<input type="text" required  name="email" id="login-email" class="form-control input-lg" placeholder="<?php echo lang('label_email'); ?>" autofocus="" />
 	         		 				<span class="input-group-addon">@</span>
 								</div>
 								<?php echo form_error('email', '<span class="text-danger">', '</span>'); ?>

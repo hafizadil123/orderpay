@@ -22,13 +22,13 @@
 							<div class="col-md-12">
 								<div class="form-group">
 									<label for=""><?php echo lang('label_address_1'); ?></label>
-									<input type="text" name="address[address_1]" class="form-control" value="<?php echo set_value('address[address_1]', $address['address_1']); ?>" />
+									<input type="text" required  name="address[address_1]" class="form-control" value="<?php echo set_value('address[address_1]', $address['address_1']); ?>" />
 									<?php echo form_error('address[address_1]', '<span class="text-danger">', '</span>'); ?>
 								</div>
 
 								<div class="form-group">
 									<label for=""><?php echo lang('label_address_2'); ?></label>
-									<input type="text" name="address[address_2]" class="form-control" value="<?php echo set_value('address[address_2]', $address['address_2']); ?>" />
+									<input type="text" required  name="address[address_2]" class="form-control" value="<?php echo set_value('address[address_2]', $address['address_2']); ?>" />
 									<?php echo form_error('address[address_2]', '<span class="text-danger">', '</span>'); ?>
 								</div>
 
@@ -36,21 +36,21 @@
 									<div class="col-xs-12 col-sm-4 col-md-4">
 										<div class="form-group">
                                             <label for=""><?php echo lang('label_city'); ?></label>
-                                            <input type="text" class="form-control" value="<?php echo set_value('address[city]', $address['city']); ?>" name="address[city]" placeholder="<?php echo lang('label_city'); ?>">
+                                            <input type="text" required  class="form-control" value="<?php echo set_value('address[city]', $address['city']); ?>" name="address[city]" placeholder="<?php echo lang('label_city'); ?>">
 											<?php echo form_error('address[city]', '<span class="text-danger">', '</span>'); ?>
 										</div>
 									</div>
 									<div class="col-xs-12 col-sm-4 col-md-4">
 										<div class="form-group">
                                             <label for=""><?php echo lang('label_state'); ?></label>
-                                            <input type="text" class="form-control" value="<?php echo set_value('address[state]', $address['state']); ?>" name="address[state]" placeholder="<?php echo lang('label_state'); ?>">
+                                            <input type="text" required  class="form-control" value="<?php echo set_value('address[state]', $address['state']); ?>" name="address[state]" placeholder="<?php echo lang('label_state'); ?>">
 											<?php echo form_error('address[state]', '<span class="text-danger">', '</span>'); ?>
 										</div>
 									</div>
 									<div class="col-xs-12 col-sm-4 col-md-4">
 										<div class="form-group">
                                             <label for=""><?php echo lang('label_postcode'); ?></label>
-											<input type="text" class="form-control" name="address[postcode]" value="<?php echo set_value('address[postcode]', $address['postcode']); ?>" placeholder="<?php echo lang('label_postcode'); ?>">
+											<input type="text" required  class="form-control" name="address[postcode]" value="<?php echo set_value('address[postcode]', $address['postcode']); ?>" placeholder="<?php echo lang('label_postcode'); ?>">
 											<?php echo form_error('address[postcode]', '<span class="text-danger">', '</span>'); ?>
 										</div>
 									</div>
@@ -75,32 +75,32 @@
 							<div id="new-address" class="col-md-12">
 								<div class="form-group">
 									<label for=""><?php echo lang('label_address_1'); ?></label>
-									<input type="text" name="address[address_1]" class="form-control" value="<?php echo set_value('address[address_1]'); ?>" />
+									<input type="text" required  name="address[address_1]" class="form-control" value="<?php echo set_value('address[address_1]'); ?>" />
 									<?php echo form_error('address[address_1]', '<span class="text-danger">', '</span>'); ?>
 								</div>
 
 								<div class="form-group">
 									<label for=""><?php echo lang('label_address_2'); ?></label>
-									<input type="text" name="address[address_2]" class="form-control" value="<?php echo set_value('address[address_2]'); ?>" />
+									<input type="text" required  name="address[address_2]" class="form-control" value="<?php echo set_value('address[address_2]'); ?>" />
 									<?php echo form_error('address[address_2]', '<span class="text-danger">', '</span>'); ?>
 								</div>
 
 								<div class="row">
 									<div class="col-xs-12 col-sm-4 col-md-4">
 										<div class="form-group">
-											<input type="text" class="form-control" value="<?php echo set_value('address[city]'); ?>" name="address[city]" placeholder="<?php echo lang('label_city'); ?>">
+											<input type="text" required  class="form-control" value="<?php echo set_value('address[city]'); ?>" name="address[city]" placeholder="<?php echo lang('label_city'); ?>">
 											<?php echo form_error('address[city]', '<span class="text-danger">', '</span>'); ?>
 										</div>
 									</div>
 									<div class="col-xs-12 col-sm-4 col-md-4">
 										<div class="form-group">
-											<input type="text" class="form-control" value="<?php echo set_value('address[state]'); ?>" name="address[state]" placeholder="<?php echo lang('label_state'); ?>">
+											<input type="text" required  class="form-control" value="<?php echo set_value('address[state]'); ?>" name="address[state]" placeholder="<?php echo lang('label_state'); ?>">
 											<?php echo form_error('address[state]', '<span class="text-danger">', '</span>'); ?>
 										</div>
 									</div>
 									<div class="col-xs-12 col-sm-4 col-md-4">
 										<div class="form-group">
-											<input type="text" class="form-control" name="address[postcode]" value="<?php echo set_value('address[postcode]'); ?>" placeholder="<?php echo lang('label_postcode'); ?>">
+											<input type="text" required  class="form-control" name="address[postcode]" value="<?php echo set_value('address[postcode]'); ?>" placeholder="<?php echo lang('label_postcode'); ?>">
 											<?php echo form_error('address[postcode]', '<span class="text-danger">', '</span>'); ?>
 										</div>
 									</div>

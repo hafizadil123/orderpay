@@ -2,7 +2,7 @@
     <form method="POST" accept-charset="UTF-8">
         <div class="form-group">
             <label><?= e(lang('main::lang.media_manager.text_folder_name')) ?></label>
-            <input type="text" class="form-control" name="name"/>
+            <input type="text" required  class="form-control" name="name"/>
         </div>
     </form>
 </script>
@@ -11,7 +11,7 @@
     <form method="POST" accept-charset="UTF-8">
         <div class="form-group">
             <label><?= e(lang('main::lang.media_manager.text_folder_name')) ?></label>
-            <input type="text" class="form-control" name="name"/>
+            <input type="text" required  class="form-control" name="name"/>
         </div>
     </form>
 </script>
@@ -20,7 +20,7 @@
     <form method="POST" accept-charset="UTF-8">
         <div class="form-group">
             <label><?= e(lang('main::lang.media_manager.text_file_name')) ?></label>
-            <input type="text" class="form-control" name="name"/>
+            <input type="text" required  class="form-control" name="name"/>
         </div>
     </form>
 </script>

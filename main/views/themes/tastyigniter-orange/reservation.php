@@ -22,14 +22,14 @@
 	                    <div class="row">
 	                        <div class="col-xs-12 col-sm-6 col-md-6">
 	                            <div class="form-group">
-	                                <input type="text" name="first_name" id="first-name" class="form-control" placeholder="<?php echo lang('label_first_name'); ?>" value="<?php echo set_value('first_name', $first_name); ?>" />
+	                                <input type="text" required  name="first_name" id="first-name" class="form-control" placeholder="<?php echo lang('label_first_name'); ?>" value="<?php echo set_value('first_name', $first_name); ?>" />
 	                                <?php echo form_error('first_name', '<span class="text-danger">', '</span>'); ?>
 	                            </div>
 	                        </div>
 
 	                        <div class="col-xs-12 col-sm-6 col-md-6">
 	                            <div class="form-group">
-	                                <input type="text" name="last_name" id="last-name" class="form-control" placeholder="<?php echo lang('label_last_name'); ?>" value="<?php echo set_value('last_name', $last_name); ?>" />
+	                                <input type="text" required  name="last_name" id="last-name" class="form-control" placeholder="<?php echo lang('label_last_name'); ?>" value="<?php echo set_value('last_name', $last_name); ?>" />
 	                                <?php echo form_error('last_name', '<span class="text-danger">', '</span>'); ?>
 	                            </div>
 	                        </div>
@@ -38,21 +38,21 @@
 	                    <div class="row">
 	                        <div class="col-xs-12 col-sm-6 col-md-6">
 	                            <div class="form-group">
-	                                <input type="text" name="email" id="email" class="form-control" placeholder="<?php echo lang('label_email'); ?>" value="<?php echo set_value('email', $email); ?>" />
+	                                <input type="text" required  name="email" id="email" class="form-control" placeholder="<?php echo lang('label_email'); ?>" value="<?php echo set_value('email', $email); ?>" />
 	                                <?php echo form_error('email', '<span class="text-danger">', '</span>'); ?>
 	                            </div>
 	                        </div>
 
 	                        <div class="col-xs-12 col-sm-6 col-md-6">
 	                            <div class="form-group">
-	                                <input type="text" name="confirm_email" id="confirm-email" class="form-control" placeholder="<?php echo lang('label_confirm_email'); ?>" value="<?php echo set_value('confirm_email', $email); ?>" />
+	                                <input type="text" required  name="confirm_email" id="confirm-email" class="form-control" placeholder="<?php echo lang('label_confirm_email'); ?>" value="<?php echo set_value('confirm_email', $email); ?>" />
 	                                <?php echo form_error('confirm_email', '<span class="text-danger">', '</span>'); ?>
 	                            </div>
 	                        </div>
 	                    </div>
 
 	                    <div class="form-group">
-	                        <input type="text" name="telephone" id="telephone" class="form-control" placeholder="<?php echo lang('label_telephone'); ?>" value="<?php echo set_value('telephone', $telephone); ?>" />
+	                        <input type="text" required  name="telephone" id="telephone" class="form-control" placeholder="<?php echo lang('label_telephone'); ?>" value="<?php echo set_value('telephone', $telephone); ?>" />
 	                        <?php echo form_error('telephone', '<span class="text-danger">', '</span>'); ?>
 	                    </div>
 
@@ -65,7 +65,7 @@
 	                        <div class="input-group">
 	                            <span><?php echo $captcha['image']; ?></span>
 	                            <input type="hidden" name="captcha_word" class="form-control" value="<?php echo $captcha['word']; ?>" />
-	                            <input type="text" name="captcha" class="form-control" placeholder="<?php echo lang('label_captcha'); ?>" />
+	                            <input type="text" required  name="captcha" class="form-control" placeholder="<?php echo lang('label_captcha'); ?>" />
 	                        </div>
 	                        <?php echo form_error('captcha', '<span class="text-danger">', '</span>'); ?>
 	                    </div>

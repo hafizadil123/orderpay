@@ -33,12 +33,12 @@
 						<div class="col-md-12">
 							<div class="form-group">
 								<label for="location"><?php echo lang('label_restaurant'); ?></label>
-								<input type="text" id="location" class="form-control" value="<?php echo $restaurant_name; ?>" disabled />
+								<input type="text" required  id="location" class="form-control" value="<?php echo $restaurant_name; ?>" disabled />
 								<input type="hidden" name="location_id" value="<?php echo $location_id; ?>" <?php echo set_value('location_id', $location_id); ?> />
 							</div>
 							<div class="form-group">
 								<label for="customer"><?php echo lang('label_customer_name'); ?></label>
-								<input type="text" id="customer" class="form-control" value="<?php echo $customer_name; ?>" disabled />
+								<input type="text" required  id="customer" class="form-control" value="<?php echo $customer_name; ?>" disabled />
 								<input type="hidden" name="customer_id" value="<?php echo $customer_id; ?>" />
 							</div>
 							<div class="form-inline">

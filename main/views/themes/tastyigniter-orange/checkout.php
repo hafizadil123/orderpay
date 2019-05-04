@@ -62,14 +62,14 @@
 									<div class="col-sm-6">
 										<div class="form-group">
 											<label for="first-name"><?php echo lang('label_first_name'); ?></label>
-											<input type="text" name="first_name" id="first-name" class="form-control" value="<?php echo set_value('first_name', $first_name); ?>" />
+											<input type="text" required  name="first_name" id="first-name" class="form-control" value="<?php echo set_value('first_name', $first_name); ?>" />
 											<?php echo form_error('first_name', '<span class="text-danger">', '</span>'); ?>
 										</div>
 									</div>
 									<div class="col-sm-6">
 										<div class="form-group">
 											<label for="last-name"><?php echo lang('label_last_name'); ?></label>
-											<input type="text" name="last_name" id="last-name" class="form-control" value="<?php echo set_value('last_name', $last_name); ?>" />
+											<input type="text" required  name="last_name" id="last-name" class="form-control" value="<?php echo set_value('last_name', $last_name); ?>" />
 											<?php echo form_error('last_name', '<span class="text-danger">', '</span>'); ?>
 										</div>
 									</div>
@@ -79,14 +79,14 @@
 									<div class="col-sm-6">
 										<div class="form-group">
 											<label for="email"><?php echo lang('label_email'); ?></label>
-											<input type="text" name="email" id="email" class="form-control" value="<?php echo set_value('email', $email); ?>" <?php echo $is_logged ? 'disabled' : ''; ?> />
+											<input type="text" required  name="email" id="email" class="form-control" value="<?php echo set_value('email', $email); ?>" <?php echo $is_logged ? 'disabled' : ''; ?> />
 											<?php echo form_error('email', '<span class="text-danger">', '</span>'); ?>
 										</div>
 									</div>
 									<div class="col-sm-6">
 										<div class="form-group">
 											<label for="telephone"><?php echo lang('label_telephone'); ?></label>
-											<input type="text" name="telephone" id="telephone" class="form-control" value="<?php echo set_value('telephone', $telephone); ?>" />
+											<input type="text" required  name="telephone" id="telephone" class="form-control" value="<?php echo set_value('telephone', $telephone); ?>" />
 											<?php echo form_error('telephone', '<span class="text-danger">', '</span>'); ?>
 										</div>
 									</div>
@@ -206,14 +206,14 @@
 														<div class="col-sm-6">
 															<div class="form-group">
 																<label for=""><?php echo lang('label_address_1'); ?></label>
-																<input type="text" name="address[<?php echo $address_row; ?>][address_1]" class="form-control" value="<?php echo set_value('address['.$address_row.'][address_1]', $address['address_1']); ?>" />
+																<input type="text" required  name="address[<?php echo $address_row; ?>][address_1]" class="form-control" value="<?php echo set_value('address['.$address_row.'][address_1]', $address['address_1']); ?>" />
 																<?php echo form_error('address['.$address_row.'][address_1]', '<span class="text-danger">', '</span>'); ?>
 															</div>
 														</div>
 														<div class="col-sm-6">
 															<div class="form-group">
 																<label for=""><?php echo lang('label_address_2'); ?></label>
-																<input type="text" name="address[<?php echo $address_row; ?>][address_2]" class="form-control" value="<?php echo set_value('address['.$address_row.'][address_2]', $address['address_2']); ?>" />
+																<input type="text" required  name="address[<?php echo $address_row; ?>][address_2]" class="form-control" value="<?php echo set_value('address['.$address_row.'][address_2]', $address['address_2']); ?>" />
 																<?php echo form_error('address['.$address_row.'][address_2]', '<span class="text-danger">', '</span>'); ?>
 															</div>
 														</div>
@@ -222,21 +222,21 @@
 														<div class="col-sm-4">
 															<div class="form-group">
 																<label for=""><?php echo lang('label_city'); ?></label>
-																<input type="text" name="address[<?php echo $address_row; ?>][city]" class="form-control" value="<?php echo set_value('address['.$address_row.'][city]', $address['city']); ?>" />
+																<input type="text" required  name="address[<?php echo $address_row; ?>][city]" class="form-control" value="<?php echo set_value('address['.$address_row.'][city]', $address['city']); ?>" />
 																<?php echo form_error('address['.$address_row.'][city]', '<span class="text-danger">', '</span>'); ?>
 															</div>
 														</div>
 														<div class="col-sm-4">
 															<div class="form-group">
 																<label for=""><?php echo lang('label_state'); ?></label>
-																<input type="text" name="address[<?php echo $address_row; ?>][state]" class="form-control" value="<?php echo set_value('address['.$address_row.'][state]', $address['state']); ?>" />
+																<input type="text" required  name="address[<?php echo $address_row; ?>][state]" class="form-control" value="<?php echo set_value('address['.$address_row.'][state]', $address['state']); ?>" />
 																<?php echo form_error('address['.$address_row.'][state]', '<span class="text-danger">', '</span>'); ?>
 															</div>
 														</div>
 														<div class="col-sm-4">
 															<div class="form-group">
 																<label for=""><?php echo lang('label_postcode'); ?></label>
-																<input type="text" name="address[<?php echo $address_row; ?>][postcode]" class="form-control" value="<?php echo set_value('address['.$address_row.'][postcode]', $address['postcode']); ?>" />
+																<input type="text" required  name="address[<?php echo $address_row; ?>][postcode]" class="form-control" value="<?php echo set_value('address['.$address_row.'][postcode]', $address['postcode']); ?>" />
 																<?php echo form_error('address['.$address_row.'][postcode]', '<span class="text-danger">', '</span>'); ?>
 															</div>
 														</div>

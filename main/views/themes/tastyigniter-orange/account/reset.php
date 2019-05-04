@@ -34,7 +34,7 @@
 					</div>
 					<div class="form-group">
 						<label for="security-answer"></label>
-						<input type="text" name="security_answer" id="security-answer" class="form-control input-lg" placeholder="<?php echo lang('label_s_answer'); ?>" />
+						<input type="text" required  name="security_answer" id="security-answer" class="form-control input-lg" placeholder="<?php echo lang('label_s_answer'); ?>" />
 						<?php echo form_error('security_answer', '<span class="text-danger">', '</span>'); ?>
 					</div>
 					<br />

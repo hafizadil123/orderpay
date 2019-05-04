@@ -68,17 +68,17 @@
 											<?php echo form_error('subject', '<span class="text-danger">', '</span>'); ?>
 										</div>
 										<div class="form-group">
-											<input type="text" name="email" id="email" class="form-control" value="<?php echo set_value('email'); ?>" placeholder="<?php echo lang('label_email'); ?>" />
+											<input type="text" required  name="email" id="email" class="form-control" value="<?php echo set_value('email'); ?>" placeholder="<?php echo lang('label_email'); ?>" />
 											<?php echo form_error('email', '<span class="text-danger">', '</span>'); ?>
 										</div>
 									</div>
 									<div class="col-sm-6 col-md-6">
 										<div class="form-group">
-											<input type="text" name="full_name" id="full-name" class="form-control" value="<?php echo set_value('full_name'); ?>" placeholder="<?php echo lang('label_full_name'); ?>" />
+											<input type="text" required  name="full_name" id="full-name" class="form-control" value="<?php echo set_value('full_name'); ?>" placeholder="<?php echo lang('label_full_name'); ?>" />
 											<?php echo form_error('full_name', '<span class="text-danger">', '</span>'); ?>
 										</div>
 										<div class="form-group">
-											<input type="text" name="telephone" id="telephone" class="form-control" value="<?php echo set_value('telephone'); ?>" placeholder="<?php echo lang('label_telephone'); ?>" />
+											<input type="text" required  name="telephone" id="telephone" class="form-control" value="<?php echo set_value('telephone'); ?>" placeholder="<?php echo lang('label_telephone'); ?>" />
 											<?php echo form_error('telephone', '<span class="text-danger">', '</span>'); ?>
 										</div>
 									</div>
@@ -90,7 +90,7 @@
 								<div class="form-group">
 									<div class="input-group">
 					 				<span><?php echo $captcha_image; ?></span>
-										<input type="text" name="captcha" class="form-control" placeholder="<?php echo lang('label_captcha'); ?>" />
+										<input type="text" required  name="captcha" class="form-control" placeholder="<?php echo lang('label_captcha'); ?>" />
 									</div>
 									<?php echo form_error('captcha', '<span class="text-danger">', '</span>'); ?>
 								</div>

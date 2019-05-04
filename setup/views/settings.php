@@ -4,14 +4,14 @@
 	<div class="form-group">
 		<label for="input-site-name" class="col-sm-3 control-label"><?php echo lang('label_site_name'); ?></label>
 		<div class="col-sm-9">
-			<input type="text" name="site_name" id="input-site-name" class="form-control" value="<?php echo $site_name; ?>" />
+			<input type="text" required  name="site_name" id="input-site-name" class="form-control" value="<?php echo $site_name; ?>" />
 			<?php echo form_error('site_name', '<span class="text-danger">', '</span>'); ?>
 		</div>
 	</div>
 	<div class="form-group">
 		<label for="input-site-email" class="col-sm-3 control-label"><?php echo lang('label_site_email'); ?></label>
 		<div class="col-sm-9">
-			<input type="text" name="site_email" id="input-site-email" class="form-control" value="<?php echo $site_email; ?>" />
+			<input type="text" required  name="site_email" id="input-site-email" class="form-control" value="<?php echo $site_email; ?>" />
 			<?php echo form_error('site_email', '<span class="text-danger">', '</span>'); ?>
 		</div>
 	</div>
@@ -22,14 +22,14 @@
 	<div class="form-group">
 		<label for="input-staff-name" class="col-sm-3 control-label"><?php echo lang('label_staff_name'); ?></label>
 		<div class="col-sm-9">
-			<input type="text" name="staff_name" id="input-staff-name" class="form-control" value="<?php echo $staff_name; ?>" />
+			<input type="text" required  name="staff_name" id="input-staff-name" class="form-control" value="<?php echo $staff_name; ?>" />
 			<?php echo form_error('staff_name', '<span class="text-danger">', '</span>'); ?>
 		</div>
 	</div>
 	<div class="form-group">
 		<label for="input-username" class="col-sm-3 control-label"><?php echo lang('label_admin_username'); ?></label>
 		<div class="col-sm-9">
-			<input type="text" name="username" id="input-username" class="form-control" value="<?php echo $username; ?>" />
+			<input type="text" required  name="username" id="input-username" class="form-control" value="<?php echo $username; ?>" />
 			<?php echo form_error('username', '<span class="text-danger">', '</span>'); ?>
 		</div>
 	</div>

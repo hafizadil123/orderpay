@@ -20,7 +20,7 @@
         </div>
         <div class="form-group span-left">
             <div class="input-group">
-                <input type="text" class="form-control btn-file-input-value" disabled="disabled">
+                <input type="text" required  class="form-control btn-file-input-value" disabled="disabled">
                 <span class="input-group-btn">
             <div class="btn btn-default btn-file-input">
                 <i class="fa fa-fw fa-folder-open"></i>&nbsp;&nbsp;
