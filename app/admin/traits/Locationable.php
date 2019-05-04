@@ -64,8 +64,9 @@ trait Locationable
 
     public function scopeWhereHasOrDoesntHaveLocation($query, $locationId)
     {
-        return $query->whereHasLocation($locationId)
-                     ->orDoesntHave($this->locationableRelationName());
+        return $query->whereHasLocation($locationId);
+                    //  return $query->whereHasLocation($locationId)
+                    //  ->orDoesntHave($this->locationableRelationName());
     }
 
     /**
