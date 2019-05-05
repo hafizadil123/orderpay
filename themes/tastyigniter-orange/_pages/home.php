@@ -5,6 +5,7 @@ description: ''
 layout: default
 
 '[slider]': {  }
+'[booking]': {  }
 
 '[localSearch]':
     hideSearch: 0
@@ -29,7 +30,8 @@ function onEnd() {
 }
 ?>
 ---
-<?= component('slider'); ?>
+<?//= component('slider'); ?>
+<?= component('booking'); ?>
 
 <?= component('localSearch'); ?>
 
