@@ -33,7 +33,7 @@ function onEnd() {
 <?//= component('slider'); ?>
 <?= component('booking'); ?>
 
-<?= component('localSearch'); ?>
-
 
 <?= component('featuredItems'); ?>
+
+<?= component('localSearch'); ?>

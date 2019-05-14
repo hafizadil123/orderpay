@@ -59,5 +59,10 @@ function onEnd()
         <?= partial('flash'); ?>
     </div>
     <?= partial('scripts'); ?>
+    <style>
+    .fixed-top, .navbar-fixed-top{
+            position: fixed !important;
+        }
+    </style>
 </body>
 </html>
